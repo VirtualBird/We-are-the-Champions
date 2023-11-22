@@ -1,0 +1,136 @@
+:root{
+    --text-color- : #ffffff;
+    --text-input-color-: #444059;
+    --background-color- : #1B1924;
+    
+    --publish-button-color- : #28A9F1;
+    --publish-button-text-color- : #04131C;
+
+}
+
+html, body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    background: var(--background-color-);
+    color: var(--text-color-);
+    
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#freddie-img {
+    height: 90px;
+    width: 90px;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+    margin-top: 24px;
+    margin-bottom: 19px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#top-section{
+    margin-top: 51px;
+}
+
+textarea {
+    font-family: 'Inter', sans-serif;
+    
+    text-align: center;
+    background: var(--text-input-color-);
+    color: var(--text-color-);
+    padding: 10px 20px;
+    
+    border: none;
+    resize: none;
+    
+    border-radius: 8px;
+    width: 116px;
+    height: 20px;
+}
+
+#from-to-inputs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 9px;
+}
+
+#textarea-input{
+    display: flex;
+    text-align: left;
+    
+    background: var(--text-input-color-);
+    padding: 10px 20px;
+    
+    width: 280px;
+    height: 93px;
+    
+    border-radius: 8px;
+    margin-bottom: 9px;
+    
+    border: none;
+    resize: none;
+}
+
+#publish-btn {
+    background: var(--publish-button-color-);
+    color: var(--publish-button-text-color-);
+    
+    width: 320px;
+    height: 60px;
+    
+    border: none;
+    
+    border-radius: 8px;
+    
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#publish-btn:hover{
+    background: #96d5ff;
+}
+
+#publish-btn:active{
+    background: var(--publish-button-color-);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    font-size: 14px;
+    
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+    background: #ffffff;
+    color: #111111;
+    
+    width: 300px;
+}
+
+.user {
+    margin: 0px 0px;
+    font-weight: bold;
+}
